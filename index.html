@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Outfit&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution { font-size: 11px; text-align: center; }
+      .attribution a { color: hsl(228, 45%, 44%); }
+
+      body {
+        background-color: hsl(212, 45%, 89%);
+      }
+
+      .container {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px;
+        width: 50%;
+      }
+
+      img {
+        width: 30%;
+        border-radius: 10px;
+        margin-top: 10px;
+      }
+
+      .image {
+        text-align: center;
+      }
+
+      .descriptions {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        display: block;
+      }
+
+      .description-1 {
+        font-family: 'Outfit', sans-serif;
+        font-size: 25px;
+      }
+
+      .description-2 {
+        font-family: 'Outfit', sans-serif;
+        color: hsl(220, 15%, 55%);
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <div class="container">
+        <div class="qr-code">
+          <div class="image">
+            <img src="./images/image-qr-code.png" alt="">
+          </div>
+          <div class="descriptions">
+            <p class="description-1">Improve your front-end<br> skills by building projects</p>
+            <p class="description-2">Scan the QR code to visit Frontend<br> Mentor and take your coding skills to<br> the next level</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+      </div> -->
+    </main>
+  </body>
+</html>
